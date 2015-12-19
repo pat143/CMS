@@ -16,5 +16,18 @@ namespace FeedBackSystem
         {
             InitializeComponent();
         }
+
+        private void lbl_instruction1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_start_server_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
+
+       
     }
 }
