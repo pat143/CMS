@@ -199,6 +199,7 @@
             this.btn_start.TabIndex = 17;
             this.btn_start.Text = "Start";
             this.btn_start.UseVisualStyleBackColor = true;
+            this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // btn_exit
             // 
@@ -231,7 +232,7 @@
             this.Controls.Add(this.tb_stud_present);
             this.Controls.Add(this.tb_branch);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Admin Page";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,5 +16,11 @@ namespace FeedBackSystem
         {
             InitializeComponent();
         }
+
+        private void btn_start_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
     }
 }

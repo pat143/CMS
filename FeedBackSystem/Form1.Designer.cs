@@ -69,26 +69,26 @@
             // btn_start_server
             // 
             this.btn_start_server.Name = "btn_start_server";
-            this.btn_start_server.Size = new System.Drawing.Size(152, 22);
+            this.btn_start_server.Size = new System.Drawing.Size(150, 22);
             this.btn_start_server.Text = "Start Server";
             this.btn_start_server.Click += new System.EventHandler(this.btn_start_server_Click);
             // 
             // btn_view_reports
             // 
             this.btn_view_reports.Name = "btn_view_reports";
-            this.btn_view_reports.Size = new System.Drawing.Size(152, 22);
+            this.btn_view_reports.Size = new System.Drawing.Size(150, 22);
             this.btn_view_reports.Text = "View Reports";
             // 
             // btn_user_accounts
             // 
             this.btn_user_accounts.Name = "btn_user_accounts";
-            this.btn_user_accounts.Size = new System.Drawing.Size(152, 22);
+            this.btn_user_accounts.Size = new System.Drawing.Size(150, 22);
             this.btn_user_accounts.Text = "User Accounts";
             // 
             // btn_exit
             // 
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(152, 22);
+            this.btn_exit.Size = new System.Drawing.Size(150, 22);
             this.btn_exit.Text = "Exit";
             // 
             // lbl_instruction2
@@ -135,7 +135,8 @@
             this.Controls.Add(this.lbl_instruction2);
             this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "FeedBack System";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
