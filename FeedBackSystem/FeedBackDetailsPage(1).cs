@@ -19,8 +19,10 @@ namespace FeedBackSystem
 
         private void btn_start_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
+            FeedBackDetail_2 fbd2 = new FeedBackDetail_2();
+            fbd2.Show();
+            this.Close();
+
         }
     }
 }

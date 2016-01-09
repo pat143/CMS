@@ -1,6 +1,6 @@
 ﻿namespace FeedBackSystem
 {
-    partial class Form1
+    partial class StartPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartPage));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btn_options = new System.Windows.Forms.ToolStripDropDownButton();
             this.btn_start_server = new System.Windows.Forms.ToolStripMenuItem();
@@ -123,6 +123,7 @@
             this.btn_proceed.TabIndex = 3;
             this.btn_proceed.Text = "Proceed";
             this.btn_proceed.UseVisualStyleBackColor = true;
+            this.btn_proceed.Click += new System.EventHandler(this.btn_proceed_Click);
             // 
             // Form1
             // 

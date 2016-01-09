@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FeedBackSystem
 {
-    public partial class Form1 : Form
+    public partial class StartPage : Form
     {
-        public Form1()
+        public StartPage()
         {
             InitializeComponent();
         }
@@ -24,11 +24,18 @@ namespace FeedBackSystem
 
         private void btn_start_server_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+           
+            LoginPage form2 = new LoginPage();
             form2.ShowDialog();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_proceed_Click(object sender, EventArgs e)
         {
 
         }

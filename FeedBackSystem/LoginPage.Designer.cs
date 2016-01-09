@@ -1,6 +1,6 @@
 ﻿namespace FeedBackSystem
 {
-    partial class Form2
+    partial class LoginPage
     {
         /// <summary>
         /// Required designer variable.
@@ -69,7 +69,7 @@
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(75, 23);
             this.btn_submit.TabIndex = 4;
-            this.btn_submit.Text = "Sumbit";
+            this.btn_submit.Text = "Submit";
             this.btn_submit.UseVisualStyleBackColor = true;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
@@ -83,7 +83,11 @@
             this.lbl_password.Text = "Password";
             this.lbl_password.Click += new System.EventHandler(this.lbl_password_Click);
             // 
-            // Form2
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            // 
+            // LoginPage
             // 
             this.AcceptButton = this.btn_submit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -96,7 +100,7 @@
             this.Controls.Add(this.tb_user_name);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form2";
+            this.Name = "LoginPage";
             this.Text = "Admin Login";
             this.ResumeLayout(false);
             this.PerformLayout();
