@@ -1,1 +1,10 @@
 F:\Programs\CMS\College Management System\College Management System\bin\Debug\College Management System.exe.config
+C:\CMS\College Management System\College Management System\bin\Debug\College Management System.exe.config
+C:\CMS\College Management System\College Management System\bin\Debug\College Management System.exe
+C:\CMS\College Management System\College Management System\bin\Debug\College Management System.pdb
+C:\CMS\College Management System\College Management System\obj\Debug\College Management System.csprojResolveAssemblyReference.cache
+C:\CMS\College Management System\College Management System\obj\Debug\College_Management_System.Form1.resources
+C:\CMS\College Management System\College Management System\obj\Debug\College_Management_System.Properties.Resources.resources
+C:\CMS\College Management System\College Management System\obj\Debug\College Management System.csproj.GenerateResource.Cache
+C:\CMS\College Management System\College Management System\obj\Debug\College Management System.exe
+C:\CMS\College Management System\College Management System\obj\Debug\College Management System.pdb

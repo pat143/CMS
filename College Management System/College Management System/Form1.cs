@@ -16,5 +16,20 @@ namespace College_Management_System
         {
             InitializeComponent();
         }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aDDToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
