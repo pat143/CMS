@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="leaving.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leaving.designer.cs">
+      <DependentUpon>leaving.cs</DependentUpon>
+    </Compile>
     <Compile Include="student_add.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +58,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="leaving.resx">
+      <DependentUpon>leaving.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="student_add.resx">
       <DependentUpon>student_add.cs</DependentUpon>
     </EmbeddedResource>
