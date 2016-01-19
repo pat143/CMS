@@ -43,29 +43,38 @@ namespace FeedBackSystem
 
         }
 
-        int InsertData(string connect,string[] datarrray,int index)
+        int InsertData(SqlConnection connect,string[] datarrray,int index)
         {
-            using (SqlConnection myConnection = new SqlConnection(connect))
+           
             {
-                SqlCommand MyCommand = new SqlCommand("INSERT INTO [dbo].[ProfData] (Idno,Name) Values (@Column1, @Column2)", myConnection);
+                SqlCommand MyCommand = new SqlCommand("INSERT INTO [dbo].[ProfData] (Idno,Name) Values (@Column1, @Column2)", connect);
                 MyCommand.Parameters.AddWithValue("@Column1", index+1);
                 MyCommand.Parameters.AddWithValue("@Column2", datarrray[index]);
                 
-                myConnection.Open();
+               
                 return MyCommand.ExecuteNonQuery();
 
             }
         }
 
-        int CreateTable(string connect)
+        int CreateTable(SqlConnection connect)
         {
 
-            using (SqlConnection myConnection = new SqlConnection(connect))
+            
             {
-                SqlCommand cmd = new SqlCommand("IF OBJECT_ID('dbo.CustomersTest', 'U') IS NULL BEGIN CREATE TABLE [dbo].[CustomersTest]([Name] VARCHAR(100) NOT NULL,) END", myConnection);
+                SqlCommand cmd = new SqlCommand("IF OBJECT_ID('dbo.FeedBackMain', 'U') IS NULL BEGIN CREATE TABLE [dbo].[FeedBackMain]([Questions] NVARCHAR(MAX) NOT NULL) END",connect);
 
-                myConnection.Open();
+                
                 return cmd.ExecuteNonQuery();
+
+            }
+        }
+        int AlterTable(SqlConnection connect,string Name)
+        {
+
+             {
+                SqlCommand cmd = new SqlCommand("DECLARE @sup nvarchar(MAX); " +"SET @sup = QUOTENAME('" + Name + "'); "+"EXEC ('ALTER TABLE dbo.FeedBackMain  ADD ' + @sup + ' nvarchar(MAX) NOT NULL')",connect);
+                    return cmd.ExecuteNonQuery();
 
             }
         }
@@ -106,46 +115,48 @@ namespace FeedBackSystem
 
             int i=0;
             string connection = "Data Source=DESKTOP-3CVCKVK;Initial Catalog=Demo;User ID=dilkap;Password=driems";
+            SqlConnection myConnection = new SqlConnection(connection);
+            myConnection.Open();
 
             while (i < 7)
             {
                 if (feedbackdetails[i] != null)
                 {
-                    int r = InsertData(connection, feedbackdetails, i);
+                    int r = InsertData(myConnection, feedbackdetails, i);
                     i++;
+                }
+                else
+                {
+                    i = 0;
+                    break;
                 }
 
             }
-                
-            //string a=null;
-            //SqlConnection conn = new SqlConnection(connection);
-            //SqlCommand comm = new SqlCommand(que,conn);
-            //conn.Open();
-            //SqlDataReader sdr = comm.ExecuteReader();
-            //while(sdr.Read())
-            //{
-
-            //    a = a + (sdr.GetInt32(0)).ToString() + sdr.GetString(1).ToString() + "\n";
-            //    richTextBox1.Text = a;
-                
-            //}
-            //sdr.Close();
-            //conn.Close();
-            try
+     
+            int j = CreateTable(myConnection);
+            while (i < 7)
             {
-                  int j= CreateTable(connection);
-            }
-            catch (Exception)
-            {
+                if (feedbackdetails[i] != null)
+                {
+                    int r = AlterTable(myConnection, feedbackdetails[i]);
+                    i++;
+                }
+                else
+                {
+                    break;
+                }
 
-                throw;
-            }
-   
 
+            }
+
+            myConnection.Close();
+
+
+           
 
         }
 
-        
+
 
 
 
