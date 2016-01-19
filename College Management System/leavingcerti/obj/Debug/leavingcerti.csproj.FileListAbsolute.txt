@@ -1,0 +1,9 @@
+C:\CMS\leavingcerti\leavingcerti\bin\Debug\leavingcerti.exe.config
+C:\CMS\leavingcerti\leavingcerti\bin\Debug\leavingcerti.exe
+C:\CMS\leavingcerti\leavingcerti\bin\Debug\leavingcerti.pdb
+C:\CMS\leavingcerti\leavingcerti\obj\Debug\leavingcerti.csprojResolveAssemblyReference.cache
+C:\CMS\leavingcerti\leavingcerti\obj\Debug\leavingcerti.Form1.resources
+C:\CMS\leavingcerti\leavingcerti\obj\Debug\leavingcerti.Properties.Resources.resources
+C:\CMS\leavingcerti\leavingcerti\obj\Debug\leavingcerti.csproj.GenerateResource.Cache
+C:\CMS\leavingcerti\leavingcerti\obj\Debug\leavingcerti.exe
+C:\CMS\leavingcerti\leavingcerti\obj\Debug\leavingcerti.pdb
