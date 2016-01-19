@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Sql;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,29 +14,36 @@ namespace FeedBackSystem
 {
     public partial class Form6 : Form
     {
-        public Form6(string[] details)
+        public Form6()
         {
             InitializeComponent();
+            string connection = "Data Source=DESKTOP-3CVCKVK;Initial Catalog=Demo;User ID=dilkap;Password=driems";
+            SqlConnection myConnection = new SqlConnection(connection);
+            SqlCommand cmd = new SqlCommand("SELECT * FROM ProfData",myConnection);
+            myConnection.Open();
+            SqlDataReader sdr=cmd.ExecuteReader();
 
-           for(int i=0;i<7;i++)
+            while (sdr.Read())
             {
-                if (details[i] !=null)
-                {
-                    
-                    DataGridViewColumn col = new DataGridViewComboBoxColumn();
 
-                    col.HeaderText = details[i];
-                    DataGridViewComboBoxCell CBCell = new DataGridViewComboBoxCell();
-                    string[] x = { "A", "B", "C", "D" };
-                    CBCell.DataSource = x;
-                    col.CellTemplate = CBCell;
 
-                    int colIndex = dataGridView1.Columns.Add(col);
-                   
-                    
-                }
+
+
+                DataGridViewColumn col = new DataGridViewComboBoxColumn();
+
+                col.HeaderText = sdr["Name"].ToString();
+                DataGridViewComboBoxCell CBCell = new DataGridViewComboBoxCell();
+                string[] x = { "A", "B", "C", "D" };
+                CBCell.DataSource = x;
+                col.CellTemplate = CBCell;
+
+                int colIndex = dataGridView1.Columns.Add(col);
+
+            }        
+                
               
-            }
+            
+            myConnection.Close();
            dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             
             feedBackInitBindingSource.AllowNew = false;
@@ -55,6 +64,39 @@ namespace FeedBackSystem
 
         private void bt_confirm_Click(object sender, EventArgs e)
         {
+            string connection = "Data Source=DESKTOP-3CVCKVK;Initial Catalog=Demo;User ID=dilkap;Password=driems";
+            SqlConnection myConnection = new SqlConnection(connection);
+          
+            
+            myConnection.Open();
+           int jmax = dataGridView1.ColumnCount;
+            int i = 0;
+            int j = 0;
+            for(i=0;i<10;i++)
+            {
+                string[] a = { "", "", "", "", "", "", "", "" };
+                for(j=0;j<jmax;j++)
+                {
+                    if (j != jmax-1)
+                    {
+                        a[j] = "'" + dataGridView1.Rows[i].Cells[j].Value.ToString() + "'" + ",";
+                    }
+                    else
+                    {
+                        a[j]="'" + dataGridView1.Rows[i].Cells[j].Value.ToString() + "'";
+                    }
+                   
+                }
+                SqlCommand cmd = new SqlCommand("Insert into dbo.FeedBackMain values(" + a[0] + a[1] + a[2] + a[3] + a[4] + a[5] + a[6] + a[7] + ");", myConnection);
+                cmd.ExecuteNonQuery();
+
+
+
+            }
+            myConnection.Close();
+ 
+
+
 
         }
     }

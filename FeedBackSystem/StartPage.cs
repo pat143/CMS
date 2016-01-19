@@ -37,7 +37,8 @@ namespace FeedBackSystem
 
         private void btn_proceed_Click(object sender, EventArgs e)
         {
-
+            Form6 fs = new Form6();
+            fs.Show();
         }
 
        

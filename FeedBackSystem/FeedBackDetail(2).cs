@@ -148,18 +148,7 @@ namespace FeedBackSystem
 
 
             }
-
-            myConnection.Close();
-
-
-           
-
+            myConnection.Close();  
         }
-
-
-
-
-
-
     }
 }

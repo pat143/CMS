@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.questionsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.feedBackInitBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -76,8 +76,8 @@
             // 
             this.questionsDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.questionsDataGridViewTextBoxColumn.DataPropertyName = "Questions";
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.questionsDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.questionsDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle1;
             this.questionsDataGridViewTextBoxColumn.HeaderText = "Questions";
             this.questionsDataGridViewTextBoxColumn.Name = "questionsDataGridViewTextBoxColumn";
             this.questionsDataGridViewTextBoxColumn.Width = 79;
@@ -108,7 +108,7 @@
             // 
             // bt_confirm
             // 
-            this.bt_confirm.Location = new System.Drawing.Point(296, 3);
+            this.bt_confirm.Location = new System.Drawing.Point(295, 16);
             this.bt_confirm.Name = "bt_confirm";
             this.bt_confirm.Size = new System.Drawing.Size(75, 44);
             this.bt_confirm.TabIndex = 1;

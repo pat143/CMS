@@ -17,7 +17,7 @@ namespace FeedBackSystem
            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FeedBackDetail_2());
+            Application.Run(new StartPage());
         }
     }
 }
