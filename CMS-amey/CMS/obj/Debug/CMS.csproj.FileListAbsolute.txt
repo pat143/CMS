@@ -7,3 +7,6 @@ G:\c#\CMS\CMS\CMS\obj\Debug\CMS.csproj.GenerateResource.Cache
 G:\c#\CMS\CMS\CMS\obj\Debug\CMS.exe
 G:\c#\CMS\CMS\CMS\obj\Debug\CMS.pdb
 G:\c#\CMS\CMS\CMS\obj\Debug\CMS.student_create.resources
+C:\CoMS\CMS-amey\CMS\bin\Debug\CMS.exe.config
+C:\CoMS\CMS-amey\CMS\obj\Debug\CMS.exe
+C:\CoMS\CMS-amey\CMS\obj\Debug\CMS.pdb
