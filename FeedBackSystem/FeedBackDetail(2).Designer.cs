@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,6 +55,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.bt_fbd2_ok = new System.Windows.Forms.Button();
             this.bt_fbd2_cancel = new System.Windows.Forms.Button();
+            this.demoDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.demoDataSet = new FeedBackSystem.DemoDataSet();
+            ((System.ComponentModel.ISupportInitialize)(this.demoDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.demoDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
@@ -306,6 +311,16 @@
             this.bt_fbd2_cancel.Text = "Cancel";
             this.bt_fbd2_cancel.UseVisualStyleBackColor = true;
             // 
+            // demoDataSetBindingSource
+            // 
+            this.demoDataSetBindingSource.DataSource = this.demoDataSet;
+            this.demoDataSetBindingSource.Position = 0;
+            // 
+            // demoDataSet
+            // 
+            this.demoDataSet.DataSetName = "DemoDataSet";
+            this.demoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // FeedBackDetail_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -340,6 +355,8 @@
             this.Name = "FeedBackDetail_2";
             this.Text = "FeedBackDetail(Page 2)";
             this.Load += new System.EventHandler(this.FeedBackDetail_2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.demoDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.demoDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -373,6 +390,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button bt_fbd2_ok;
         private System.Windows.Forms.Button bt_fbd2_cancel;
+        private System.Windows.Forms.BindingSource demoDataSetBindingSource;
+        private DemoDataSet demoDataSet;
 
     }
 }
