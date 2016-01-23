@@ -73,7 +73,7 @@ namespace FeedBackSystem
         {
 
              {
-                SqlCommand cmd = new SqlCommand("DECLARE @sup nvarchar(MAX); " +"SET @sup = QUOTENAME('" + Name + "'); "+"EXEC ('ALTER TABLE dbo.FeedBackMain  ADD ' + @sup + ' nvarchar(MAX) NOT NULL')",connect);
+                SqlCommand cmd = new SqlCommand("DECLARE @sup nvarchar(MAX); " +"SET @sup = QUOTENAME('" + Name + "'); "+"EXEC ('ALTER TABLE dbo.FeedBackMain  ADD ' + @sup + ' nvarchar(MAX)')",connect);
                     return cmd.ExecuteNonQuery();
 
             }

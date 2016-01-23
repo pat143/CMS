@@ -14,10 +14,11 @@ namespace FeedBackSystem
         [STAThread]
         static void Main()
         {
-           
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartPage());
+            Application.Run(new Result());
+            
         }
     }
 }
