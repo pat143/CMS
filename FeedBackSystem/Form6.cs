@@ -94,9 +94,10 @@ namespace FeedBackSystem
 
             }
             myConnection.Close();
- 
 
 
+            System.Windows.Forms.MessageBox.Show("Thankyou for Feedback");
+            this.Close();
 
         }
     }

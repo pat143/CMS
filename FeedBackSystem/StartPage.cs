@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Sql;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,9 @@ namespace FeedBackSystem
         public StartPage()
         {
             InitializeComponent();
+            
+
+
         }
 
         private void lbl_instruction1_Click(object sender, EventArgs e)
@@ -27,6 +32,7 @@ namespace FeedBackSystem
            
             LoginPage form2 = new LoginPage();
             form2.ShowDialog();
+            this.Visible = false;
             
         }
 
@@ -39,6 +45,7 @@ namespace FeedBackSystem
         {
             Form6 fs = new Form6();
             fs.Show();
+            this.Visible = false;
         }
 
        

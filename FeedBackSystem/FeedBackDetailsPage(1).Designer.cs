@@ -49,7 +49,7 @@
             // tb_college_and_place
             // 
             this.tb_college_and_place.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tb_college_and_place.Location = new System.Drawing.Point(332, 53);
+            this.tb_college_and_place.Location = new System.Drawing.Point(332, 57);
             this.tb_college_and_place.Multiline = true;
             this.tb_college_and_place.Name = "tb_college_and_place";
             this.tb_college_and_place.Size = new System.Drawing.Size(171, 21);
@@ -152,6 +152,7 @@
             // cb_class
             // 
             this.cb_class.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cb_class.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_class.FormattingEnabled = true;
             this.cb_class.Items.AddRange(new object[] {
             "FE",
@@ -166,6 +167,7 @@
             // cb_batch
             // 
             this.cb_batch.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cb_batch.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_batch.FormattingEnabled = true;
             this.cb_batch.Items.AddRange(new object[] {
             "B1",
@@ -179,6 +181,7 @@
             // cb_div
             // 
             this.cb_div.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cb_div.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_div.FormattingEnabled = true;
             this.cb_div.Items.AddRange(new object[] {
             "A",
@@ -233,6 +236,7 @@
             this.Controls.Add(this.tb_branch);
             this.Name = "Form3";
             this.Text = "Admin Page";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

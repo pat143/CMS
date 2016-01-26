@@ -18,7 +18,7 @@ namespace FeedBackSystem
     public partial class Result : Form
     {
         string connection = "Data Source=DESKTOP-3CVCKVK;Initial Catalog=Demo;User ID=dilkap;Password=driems";
-        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\FeedBackTable.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\v11.0;AttachDbFilename=F:\\Programs\\Feedbacks\\FeedBackSystem\\FeedBackSystem\\FeedBackTable.mdf;Integrated Security=True");
            
         public Result()
         {
@@ -51,19 +51,52 @@ namespace FeedBackSystem
 
             //
 
-              
 
 
 
-            CrystalReport11.SetDatabaseLogon("dilkap", "driems", "DESKTOP-3CVCKVK", "Demo");
-                if (CrystalReport11.Subreports["vtft"].HasRecords == true)
+            CrystalReport11.SetDatabaseLogon("dilkap","driems","DESKTOP-3CVCKVK","Demo");
+           
+
+
+                if (CrystalReport11.Subreports["sr_Table2"].HasRecords == false)
                 {
-                    CrystalReport11.Section1.SectionFormat.EnableSuppress=true;
-
-                    CrystalReport11
                     
+                    CrystalReport11.DetailSection7.SectionFormat.EnableSuppress = true;
                     
                 }
+                if (CrystalReport11.Subreports["sr_Table3"].HasRecords == false)
+                {
+
+                    CrystalReport11.DetailSection8.SectionFormat.EnableSuppress = true;
+
+                }
+                if (CrystalReport11.Subreports["sr_Table4"].HasRecords == false)
+                {
+
+                    CrystalReport11.DetailSection9.SectionFormat.EnableSuppress = true;
+
+                }
+                if (CrystalReport11.Subreports["sr_Table5"].HasRecords == false)
+                {
+
+                    CrystalReport11.DetailSection10.SectionFormat.EnableSuppress = true;
+
+                }
+                if (CrystalReport11.Subreports["sr_Table6"].HasRecords == false)
+                {
+
+                    CrystalReport11.DetailSection11.SectionFormat.EnableSuppress = true;
+
+                }
+                if (CrystalReport11.Subreports["sr_Table7"].HasRecords == false)
+                {
+
+                    CrystalReport11.DetailSection12.SectionFormat.EnableSuppress = true;
+
+                }
+               
+    
+            
 
                 
 

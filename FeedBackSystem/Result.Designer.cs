@@ -34,7 +34,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.CrystalReport11 = new FeedBackSystem.CrystalReport1();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,10 +76,11 @@
             this.crystalReportViewer1.ActiveViewIndex = 0;
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 202);
+            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ReportSource = this.CrystalReport11;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1300, 332);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1300, 534);
             this.crystalReportViewer1.TabIndex = 2;
             this.crystalReportViewer1.Load += new System.EventHandler(this.crystalReportViewer1_Load);
             // 
@@ -88,21 +88,11 @@
             // 
             this.CrystalReport11.InitReport += new System.EventHandler(this.CrystalReport11_InitReport_1);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(832, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
-            // 
             // Result
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1300, 534);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox1);
@@ -111,7 +101,6 @@
             this.Load += new System.EventHandler(this.Result_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -123,7 +112,6 @@
          private System.Windows.Forms.DataGridViewTextBoxColumn Question;
          private System.Windows.Forms.DataGridView dataGridView1;
          private CrystalReport1 CrystalReport11;
-         private System.Windows.Forms.Label label1;
        
     }
 }

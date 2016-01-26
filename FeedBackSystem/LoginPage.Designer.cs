@@ -102,6 +102,7 @@
             this.MinimizeBox = false;
             this.Name = "LoginPage";
             this.Text = "Admin Login";
+            this.Load += new System.EventHandler(this.LoginPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

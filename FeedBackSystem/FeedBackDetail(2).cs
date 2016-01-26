@@ -148,7 +148,10 @@ namespace FeedBackSystem
 
 
             }
-            myConnection.Close();  
+            myConnection.Close();
+            ServerWait s = new ServerWait();
+            s.Show();
+            this.Close();
         }
     }
 }

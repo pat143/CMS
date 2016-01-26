@@ -52,7 +52,7 @@ namespace FeedBackSystem
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            string name= "tablename";
+            string name= "Table";
             string[] tablearray = { "", "", "", "", "", "", "" };
             string[] profarray={ "", "", "", "", "", "", "" };
             SqlConnection myConnection = new SqlConnection("Data Source=DESKTOP-3CVCKVK;Initial Catalog=Demo;User ID=dilkap;Password=driems");
@@ -69,21 +69,21 @@ namespace FeedBackSystem
             }
             sdr.Close();
             int i=0;
-            for(i=0;i<id;i++)
-            {
-                if(tablearray[i]!="")
-                {
-                    int r=CreateTable(myConnection,tablearray[i]);
-                }
-                else 
-                { 
-                    break;
-                }
-            }
+            //for (i = 0; i < id; i++)
+            //{
+            //    if (tablearray[i] != "")
+            //    {
+            //        int r = CreateTable(myConnection, tablearray[i]);
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
              
             myConnection.Close();
-            
-            SqlConnection con=new SqlConnection("Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\FeedBackTable.mdf;Integrated Security=True");
+
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\v11.0;AttachDbFilename=F:\\Programs\\Feedbacks\\FeedBackSystem\\FeedBackSystem\\FeedBackTable.mdf;Integrated Security=True");
             string[] quesarray = new string[10];
             SqlCommand cm = new SqlCommand("SELECT * from FeedBackInit", con);
             con.Open();
@@ -94,7 +94,9 @@ namespace FeedBackSystem
                 quesarray[i] = sd[0].ToString();
                 i++;
             }
-            con.Close();
+            sd.Close();
+            
+                          
             i=0;
             int j;
             myConnection.Open();
@@ -111,22 +113,28 @@ namespace FeedBackSystem
                     string currentques = quesarray[j];
                     for(k=0;k<4;k++)
                     {
+            
                         string option=options[k];
-                        valueresult[k] = FillsData(myConnection, currentProf, currentques, currenttable,option); 
+                        valueresult[k] = FillsData(myConnection, currentProf, currentques, currenttable,option);
                     }
-                    SqlCommand ls = new SqlCommand("Insert Into [dbo].[" + currenttable + "] values('" + currentques + "','" + valueresult[0] + "','" + valueresult[1] + "','" + valueresult[2] + "','" + valueresult[3] + "')", myConnection);
+                    
+                    SqlCommand ls = new SqlCommand("Insert Into " + currenttable + " values('" + currentques + "','" + valueresult[0] + "','" + valueresult[1] + "','" + valueresult[2] + "','" + valueresult[3] + "')",myConnection);
                     ls.ExecuteNonQuery();
+                    
                 }
 
             }
+
+
+            con.Close();
            
 
 
+            myConnection.Close();
 
-
-                myConnection.Close();
-            
-
+            Result r = new Result();
+            r.Show();
+            this.Close();
 
 
 
