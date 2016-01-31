@@ -1,6 +1,6 @@
 ﻿namespace leavingcerti
 {
-    partial class Form1
+    partial class leaving
     {
         /// <summary>
         /// Required designer variable.

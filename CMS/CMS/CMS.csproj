@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fees.Designer.cs">
+      <DependentUpon>fees.cs</DependentUpon>
+    </Compile>
     <Compile Include="leaving.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fees.resx">
+      <DependentUpon>fees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="leaving.resx">
       <DependentUpon>leaving.cs</DependentUpon>
     </EmbeddedResource>

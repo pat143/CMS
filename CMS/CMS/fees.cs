@@ -8,26 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FeedBackSystem
+namespace CMS
 {
-    public partial class Form5 : Form
+    public partial class fees : Form
     {
-        public Form5()
+        public fees()
         {
             InitializeComponent();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void fees_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void lbl_sub1_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }
