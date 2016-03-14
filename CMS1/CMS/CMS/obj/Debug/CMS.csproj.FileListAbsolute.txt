@@ -1,0 +1,25 @@
+G:\c#\CMS\CMS\CMS\bin\Debug\CMS.exe.config
+G:\c#\CMS\CMS\CMS\bin\Debug\CMS.exe
+G:\c#\CMS\CMS\CMS\bin\Debug\CMS.pdb
+G:\c#\CMS\CMS\CMS\obj\Debug\CMS.csprojResolveAssemblyReference.cache
+G:\c#\CMS\CMS\CMS\obj\Debug\CMS.Properties.Resources.resources
+G:\c#\CMS\CMS\CMS\obj\Debug\CMS.csproj.GenerateResource.Cache
+G:\c#\CMS\CMS\CMS\obj\Debug\CMS.exe
+G:\c#\CMS\CMS\CMS\obj\Debug\CMS.pdb
+G:\c#\CMS\CMS\CMS\obj\Debug\CMS.student_create.resources
+G:\c#\CMS\CMS\bin\Debug\CMS.exe.config
+G:\c#\CMS\CMS\obj\Debug\CMS.exe
+G:\c#\CMS\CMS\obj\Debug\CMS.pdb
+G:\c#\CMS\CMS\bin\Debug\CMS.exe
+G:\c#\CMS\CMS\bin\Debug\CMS.pdb
+G:\c#\CMS\CMS\obj\Debug\CMS.csprojResolveAssemblyReference.cache
+G:\c#\CMS\CMS\obj\Debug\leavingcerti.leaving.resources
+G:\c#\CMS\CMS\obj\Debug\CMS.student_add.resources
+G:\c#\CMS\CMS\obj\Debug\CMS.Properties.Resources.resources
+G:\c#\CMS\CMS\obj\Debug\CMS.csproj.GenerateResource.Cache
+C:\CoMS\CMS\CMS\bin\Debug\CMS.exe.config
+C:\CoMS\CMS\CMS\obj\Debug\CMS.exe
+C:\CoMS\CMS\CMS\obj\Debug\CMS.pdb
+C:\Users\abhi & ameya\Downloads\CMS-ameya\CMS\CMS\bin\Debug\CMS.exe.config
+C:\Users\abhi & ameya\Downloads\CMS-ameya\CMS\CMS\obj\Debug\CMS.exe
+C:\Users\abhi & ameya\Downloads\CMS-ameya\CMS\CMS\obj\Debug\CMS.pdb
