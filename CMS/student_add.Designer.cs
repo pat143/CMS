@@ -28,65 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_save = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.tb_email = new System.Windows.Forms.TextBox();
+            this.tb_phone = new System.Windows.Forms.TextBox();
+            this.tb_mobile = new System.Windows.Forms.TextBox();
+            this.tbm_education_yr = new System.Windows.Forms.MaskedTextBox();
+            this.date_doa = new System.Windows.Forms.DateTimePicker();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox_same_address = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.tb_local_address = new System.Windows.Forms.TextBox();
+            this.tb_permanent_address = new System.Windows.Forms.TextBox();
+            this.tb_placeofbirth = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.date_dob = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.rb_female = new System.Windows.Forms.RadioButton();
+            this.rb_others = new System.Windows.Forms.RadioButton();
+            this.rb_male = new System.Windows.Forms.RadioButton();
+            this.tb_mothername = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_lastname = new System.Windows.Forms.TextBox();
+            this.tb_middlename = new System.Windows.Forms.TextBox();
+            this.tb_firstname = new System.Windows.Forms.TextBox();
+            this.tb_university_id = new System.Windows.Forms.TextBox();
+            this.tb_enrollment_no = new System.Windows.Forms.TextBox();
+            this.tb_register_no = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.tb_form_no = new System.Windows.Forms.TextBox();
+            this.tb_adhar = new System.Windows.Forms.TextBox();
+            this.comboBox_specialization = new System.Windows.Forms.ComboBox();
+            this.comboBox_admit_class = new System.Windows.Forms.ComboBox();
+            this.comboBox_division = new System.Windows.Forms.ComboBox();
+            this.comboBox_handicap = new System.Windows.Forms.ComboBox();
+            this.tb_mother_tongue = new System.Windows.Forms.TextBox();
+            this.tb_handicap_description = new System.Windows.Forms.TextBox();
+            this.tb_category = new System.Windows.Forms.TextBox();
+            this.tb_caste = new System.Windows.Forms.TextBox();
+            this.tb_religion = new System.Windows.Forms.TextBox();
+            this.tb_nationality = new System.Windows.Forms.TextBox();
+            this.comboBox_blood = new System.Windows.Forms.ComboBox();
+            this.checkBox_new_admission = new System.Windows.Forms.CheckBox();
+            this.checkBox_hosteler = new System.Windows.Forms.CheckBox();
+            this.checkBox_minority_student = new System.Windows.Forms.CheckBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.splitter2 = new System.Windows.Forms.Splitter();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -94,12 +95,61 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider3 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider4 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider5 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider6 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider7 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider8 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider9 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider10 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider11 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider12 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider13 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider14 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider15 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider16 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider17 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider18 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider19 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider20 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider21 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider22 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider23 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider24 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errorProvider25 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider25)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -108,43 +158,43 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btn_save);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.textBox13);
-            this.panel1.Controls.Add(this.textBox12);
-            this.panel1.Controls.Add(this.textBox11);
-            this.panel1.Controls.Add(this.maskedTextBox1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
+            this.panel1.Controls.Add(this.tb_email);
+            this.panel1.Controls.Add(this.tb_phone);
+            this.panel1.Controls.Add(this.tb_mobile);
+            this.panel1.Controls.Add(this.tbm_education_yr);
+            this.panel1.Controls.Add(this.date_doa);
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.checkBox_same_address);
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.tb_local_address);
+            this.panel1.Controls.Add(this.tb_permanent_address);
+            this.panel1.Controls.Add(this.tb_placeofbirth);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.date_dob);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.radioButton3);
-            this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.rb_female);
+            this.panel1.Controls.Add(this.rb_others);
+            this.panel1.Controls.Add(this.rb_male);
+            this.panel1.Controls.Add(this.tb_mothername);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.tb_lastname);
+            this.panel1.Controls.Add(this.tb_middlename);
+            this.panel1.Controls.Add(this.tb_firstname);
+            this.panel1.Controls.Add(this.tb_university_id);
+            this.panel1.Controls.Add(this.tb_enrollment_no);
+            this.panel1.Controls.Add(this.tb_register_no);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.splitter1);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -154,14 +204,24 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // btn_save
+            // 
+            this.btn_save.Location = new System.Drawing.Point(996, 192);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(96, 101);
+            this.btn_save.TabIndex = 21;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(24, 435);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(44, 13);
+            this.label18.Size = new System.Drawing.Size(46, 13);
             this.label18.TabIndex = 39;
-            this.label18.Text = "Enail ID";
+            this.label18.Text = "Email ID";
             // 
             // label17
             // 
@@ -181,42 +241,43 @@
             this.label16.TabIndex = 37;
             this.label16.Text = "Mobile No.";
             // 
-            // textBox13
+            // tb_email
             // 
-            this.textBox13.Location = new System.Drawing.Point(132, 432);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(183, 20);
-            this.textBox13.TabIndex = 36;
+            this.tb_email.Location = new System.Drawing.Point(132, 432);
+            this.tb_email.Name = "tb_email";
+            this.tb_email.Size = new System.Drawing.Size(183, 20);
+            this.tb_email.TabIndex = 19;
             // 
-            // textBox12
+            // tb_phone
             // 
-            this.textBox12.Location = new System.Drawing.Point(404, 395);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(120, 20);
-            this.textBox12.TabIndex = 35;
+            this.tb_phone.Location = new System.Drawing.Point(404, 395);
+            this.tb_phone.Name = "tb_phone";
+            this.tb_phone.Size = new System.Drawing.Size(120, 20);
+            this.tb_phone.TabIndex = 18;
             // 
-            // textBox11
+            // tb_mobile
             // 
-            this.textBox11.Location = new System.Drawing.Point(132, 395);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(120, 20);
-            this.textBox11.TabIndex = 34;
+            this.tb_mobile.Location = new System.Drawing.Point(132, 395);
+            this.tb_mobile.Name = "tb_mobile";
+            this.tb_mobile.Size = new System.Drawing.Size(120, 20);
+            this.tb_mobile.TabIndex = 17;
             // 
-            // maskedTextBox1
+            // tbm_education_yr
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(404, 350);
-            this.maskedTextBox1.Mask = "0000-0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(120, 20);
-            this.maskedTextBox1.TabIndex = 33;
-            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tbm_education_yr.Location = new System.Drawing.Point(404, 350);
+            this.tbm_education_yr.Mask = "0000-0000";
+            this.tbm_education_yr.Name = "tbm_education_yr";
+            this.tbm_education_yr.Size = new System.Drawing.Size(120, 20);
+            this.tbm_education_yr.TabIndex = 16;
+            this.tbm_education_yr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // dateTimePicker2
+            // date_doa
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(132, 351);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(120, 20);
-            this.dateTimePicker2.TabIndex = 32;
+            this.date_doa.Location = new System.Drawing.Point(132, 351);
+            this.date_doa.Name = "date_doa";
+            this.date_doa.Size = new System.Drawing.Size(120, 20);
+            this.date_doa.TabIndex = 15;
+            this.date_doa.Value = new System.DateTime(2016, 2, 2, 0, 0, 0, 0);
             // 
             // label15
             // 
@@ -236,15 +297,16 @@
             this.label14.TabIndex = 30;
             this.label14.Text = "Date of Admission";
             // 
-            // checkBox1
+            // checkBox_same_address
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(23, 311);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(100, 17);
-            this.checkBox1.TabIndex = 29;
-            this.checkBox1.Text = "Same as above";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox_same_address.AutoSize = true;
+            this.checkBox_same_address.Location = new System.Drawing.Point(23, 311);
+            this.checkBox_same_address.Name = "checkBox_same_address";
+            this.checkBox_same_address.Size = new System.Drawing.Size(100, 17);
+            this.checkBox_same_address.TabIndex = 13;
+            this.checkBox_same_address.Text = "Same as above";
+            this.checkBox_same_address.UseVisualStyleBackColor = true;
+            this.checkBox_same_address.CheckedChanged += new System.EventHandler(this.checkBox_same_address_CheckedChanged);
             // 
             // label13
             // 
@@ -264,28 +326,28 @@
             this.label12.TabIndex = 27;
             this.label12.Text = "Permanent\r\nAddress";
             // 
-            // textBox10
+            // tb_local_address
             // 
-            this.textBox10.Location = new System.Drawing.Point(132, 279);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(392, 43);
-            this.textBox10.TabIndex = 26;
+            this.tb_local_address.Location = new System.Drawing.Point(132, 279);
+            this.tb_local_address.Multiline = true;
+            this.tb_local_address.Name = "tb_local_address";
+            this.tb_local_address.Size = new System.Drawing.Size(392, 43);
+            this.tb_local_address.TabIndex = 14;
             // 
-            // textBox9
+            // tb_permanent_address
             // 
-            this.textBox9.Location = new System.Drawing.Point(132, 220);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(392, 43);
-            this.textBox9.TabIndex = 25;
+            this.tb_permanent_address.Location = new System.Drawing.Point(132, 220);
+            this.tb_permanent_address.Multiline = true;
+            this.tb_permanent_address.Name = "tb_permanent_address";
+            this.tb_permanent_address.Size = new System.Drawing.Size(392, 43);
+            this.tb_permanent_address.TabIndex = 12;
             // 
-            // textBox8
+            // tb_placeofbirth
             // 
-            this.textBox8.Location = new System.Drawing.Point(404, 162);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(120, 20);
-            this.textBox8.TabIndex = 24;
+            this.tb_placeofbirth.Location = new System.Drawing.Point(404, 162);
+            this.tb_placeofbirth.Name = "tb_placeofbirth";
+            this.tb_placeofbirth.Size = new System.Drawing.Size(120, 20);
+            this.tb_placeofbirth.TabIndex = 11;
             // 
             // label11
             // 
@@ -296,12 +358,13 @@
             this.label11.TabIndex = 23;
             this.label11.Text = "Place of Birth";
             // 
-            // dateTimePicker1
+            // date_dob
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(132, 163);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(120, 20);
-            this.dateTimePicker1.TabIndex = 22;
+            this.date_dob.Location = new System.Drawing.Point(132, 163);
+            this.date_dob.Name = "date_dob";
+            this.date_dob.Size = new System.Drawing.Size(120, 20);
+            this.date_dob.TabIndex = 10;
+            this.date_dob.Value = new System.DateTime(2016, 2, 2, 0, 0, 0, 0);
             // 
             // label10
             // 
@@ -312,46 +375,46 @@
             this.label10.TabIndex = 21;
             this.label10.Text = "Gender";
             // 
-            // radioButton3
+            // rb_female
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(416, 123);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(59, 17);
-            this.radioButton3.TabIndex = 20;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Female";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rb_female.AutoSize = true;
+            this.rb_female.Location = new System.Drawing.Point(416, 123);
+            this.rb_female.Name = "rb_female";
+            this.rb_female.Size = new System.Drawing.Size(59, 17);
+            this.rb_female.TabIndex = 8;
+            this.rb_female.TabStop = true;
+            this.rb_female.Text = "Female";
+            this.rb_female.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rb_others
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(481, 123);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(56, 17);
-            this.radioButton2.TabIndex = 19;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Others";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rb_others.AutoSize = true;
+            this.rb_others.Location = new System.Drawing.Point(481, 123);
+            this.rb_others.Name = "rb_others";
+            this.rb_others.Size = new System.Drawing.Size(56, 17);
+            this.rb_others.TabIndex = 9;
+            this.rb_others.TabStop = true;
+            this.rb_others.Text = "Others";
+            this.rb_others.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rb_male
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(362, 123);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(48, 17);
-            this.radioButton1.TabIndex = 18;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rb_male.AutoSize = true;
+            this.rb_male.Location = new System.Drawing.Point(362, 123);
+            this.rb_male.Name = "rb_male";
+            this.rb_male.Size = new System.Drawing.Size(48, 17);
+            this.rb_male.TabIndex = 7;
+            this.rb_male.TabStop = true;
+            this.rb_male.Text = "Male";
+            this.rb_male.UseVisualStyleBackColor = true;
+            this.rb_male.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // textBox7
+            // tb_mothername
             // 
-            this.textBox7.Location = new System.Drawing.Point(132, 122);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(120, 20);
-            this.textBox7.TabIndex = 17;
+            this.tb_mothername.Location = new System.Drawing.Point(132, 122);
+            this.tb_mothername.Name = "tb_mothername";
+            this.tb_mothername.Size = new System.Drawing.Size(120, 20);
+            this.tb_mothername.TabIndex = 6;
             // 
             // label9
             // 
@@ -374,7 +437,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(428, 62);
+            this.label7.Location = new System.Drawing.Point(448, 62);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(27, 13);
             this.label7.TabIndex = 14;
@@ -407,74 +470,74 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Student Name";
             // 
-            // textBox6
+            // tb_lastname
             // 
-            this.textBox6.Location = new System.Drawing.Point(384, 82);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(120, 20);
-            this.textBox6.TabIndex = 10;
+            this.tb_lastname.Location = new System.Drawing.Point(404, 82);
+            this.tb_lastname.Name = "tb_lastname";
+            this.tb_lastname.Size = new System.Drawing.Size(120, 20);
+            this.tb_lastname.TabIndex = 5;
             // 
-            // textBox5
+            // tb_middlename
             // 
-            this.textBox5.Location = new System.Drawing.Point(258, 82);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(120, 20);
-            this.textBox5.TabIndex = 9;
+            this.tb_middlename.Location = new System.Drawing.Point(267, 82);
+            this.tb_middlename.Name = "tb_middlename";
+            this.tb_middlename.Size = new System.Drawing.Size(120, 20);
+            this.tb_middlename.TabIndex = 4;
+            this.tb_middlename.TextChanged += new System.EventHandler(this.tb_middlename_TextChanged);
             // 
-            // textBox4
+            // tb_firstname
             // 
-            this.textBox4.Location = new System.Drawing.Point(132, 82);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(120, 20);
-            this.textBox4.TabIndex = 8;
+            this.tb_firstname.Location = new System.Drawing.Point(132, 82);
+            this.tb_firstname.Name = "tb_firstname";
+            this.tb_firstname.Size = new System.Drawing.Size(120, 20);
+            this.tb_firstname.TabIndex = 3;
             // 
-            // textBox3
+            // tb_university_id
             // 
-            this.textBox3.Location = new System.Drawing.Point(785, 11);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(152, 20);
-            this.textBox3.TabIndex = 7;
+            this.tb_university_id.Location = new System.Drawing.Point(785, 11);
+            this.tb_university_id.Name = "tb_university_id";
+            this.tb_university_id.Size = new System.Drawing.Size(152, 20);
+            this.tb_university_id.TabIndex = 2;
             // 
-            // textBox2
+            // tb_enrollment_no
             // 
-            this.textBox2.Location = new System.Drawing.Point(440, 11);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(165, 20);
-            this.textBox2.TabIndex = 6;
+            this.tb_enrollment_no.Location = new System.Drawing.Point(440, 11);
+            this.tb_enrollment_no.Name = "tb_enrollment_no";
+            this.tb_enrollment_no.Size = new System.Drawing.Size(165, 20);
+            this.tb_enrollment_no.TabIndex = 1;
             // 
-            // textBox1
+            // tb_register_no
             // 
-            this.textBox1.Location = new System.Drawing.Point(92, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(145, 20);
-            this.textBox1.TabIndex = 5;
+            this.tb_register_no.Location = new System.Drawing.Point(92, 11);
+            this.tb_register_no.Name = "tb_register_no";
+            this.tb_register_no.Size = new System.Drawing.Size(145, 20);
+            this.tb_register_no.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.textBox21);
-            this.panel2.Controls.Add(this.textBox20);
-            this.panel2.Controls.Add(this.comboBox5);
-            this.panel2.Controls.Add(this.comboBox4);
-            this.panel2.Controls.Add(this.comboBox3);
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.textBox19);
-            this.panel2.Controls.Add(this.textBox18);
-            this.panel2.Controls.Add(this.textBox17);
-            this.panel2.Controls.Add(this.textBox16);
-            this.panel2.Controls.Add(this.textBox15);
-            this.panel2.Controls.Add(this.textBox14);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.checkBox4);
-            this.panel2.Controls.Add(this.checkBox3);
-            this.panel2.Controls.Add(this.checkBox2);
+            this.panel2.Controls.Add(this.tb_form_no);
+            this.panel2.Controls.Add(this.tb_adhar);
+            this.panel2.Controls.Add(this.comboBox_specialization);
+            this.panel2.Controls.Add(this.comboBox_admit_class);
+            this.panel2.Controls.Add(this.comboBox_division);
+            this.panel2.Controls.Add(this.comboBox_handicap);
+            this.panel2.Controls.Add(this.tb_mother_tongue);
+            this.panel2.Controls.Add(this.tb_handicap_description);
+            this.panel2.Controls.Add(this.tb_category);
+            this.panel2.Controls.Add(this.tb_caste);
+            this.panel2.Controls.Add(this.tb_religion);
+            this.panel2.Controls.Add(this.tb_nationality);
+            this.panel2.Controls.Add(this.comboBox_blood);
+            this.panel2.Controls.Add(this.checkBox_new_admission);
+            this.panel2.Controls.Add(this.checkBox_hosteler);
+            this.panel2.Controls.Add(this.checkBox_minority_student);
             this.panel2.Controls.Add(this.label30);
             this.panel2.Controls.Add(this.label29);
             this.panel2.Controls.Add(this.label28);
             this.panel2.Controls.Add(this.label27);
             this.panel2.Controls.Add(this.label26);
-            this.panel2.Controls.Add(this.splitter2);
             this.panel2.Controls.Add(this.label25);
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.label23);
@@ -485,121 +548,125 @@
             this.panel2.Location = new System.Drawing.Point(555, 69);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(409, 390);
-            this.panel2.TabIndex = 4;
+            this.panel2.TabIndex = 20;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // textBox21
+            // tb_form_no
             // 
-            this.textBox21.Location = new System.Drawing.Point(286, 322);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(100, 20);
-            this.textBox21.TabIndex = 68;
+            this.tb_form_no.Location = new System.Drawing.Point(286, 322);
+            this.tb_form_no.Name = "tb_form_no";
+            this.tb_form_no.Size = new System.Drawing.Size(100, 20);
+            this.tb_form_no.TabIndex = 12;
             // 
-            // textBox20
+            // tb_adhar
             // 
-            this.textBox20.Location = new System.Drawing.Point(114, 253);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(272, 20);
-            this.textBox20.TabIndex = 67;
+            this.tb_adhar.Location = new System.Drawing.Point(114, 253);
+            this.tb_adhar.Name = "tb_adhar";
+            this.tb_adhar.Size = new System.Drawing.Size(272, 20);
+            this.tb_adhar.TabIndex = 8;
             // 
-            // comboBox5
+            // comboBox_specialization
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.comboBox_specialization.FormattingEnabled = true;
+            this.comboBox_specialization.Items.AddRange(new object[] {
             "COMPUTER ENGINEERING",
             "CIVIL ENGINEERING",
             "MECHANICAL ENGINEERING",
             "ELECTRICAL ENGINEERING",
             "ELECTRONICS & TELECOMMUNICATION ENGINEERING"});
-            this.comboBox5.Location = new System.Drawing.Point(114, 321);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 21);
-            this.comboBox5.TabIndex = 66;
+            this.comboBox_specialization.Location = new System.Drawing.Point(114, 321);
+            this.comboBox_specialization.Name = "comboBox_specialization";
+            this.comboBox_specialization.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_specialization.TabIndex = 11;
             // 
-            // comboBox4
+            // comboBox_admit_class
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.comboBox_admit_class.FormattingEnabled = true;
+            this.comboBox_admit_class.Items.AddRange(new object[] {
             "FE",
             "SE",
             "TE",
             "BE"});
-            this.comboBox4.Location = new System.Drawing.Point(114, 284);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 65;
+            this.comboBox_admit_class.Location = new System.Drawing.Point(114, 284);
+            this.comboBox_admit_class.Name = "comboBox_admit_class";
+            this.comboBox_admit_class.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_admit_class.TabIndex = 9;
             // 
-            // comboBox3
+            // comboBox_division
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comboBox_division.FormattingEnabled = true;
+            this.comboBox_division.Items.AddRange(new object[] {
+            "N/A",
             "A",
             "B",
             "C",
             "D",
             "E",
             "F"});
-            this.comboBox3.Location = new System.Drawing.Point(286, 283);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(100, 21);
-            this.comboBox3.TabIndex = 64;
+            this.comboBox_division.Location = new System.Drawing.Point(286, 283);
+            this.comboBox_division.Name = "comboBox_division";
+            this.comboBox_division.Size = new System.Drawing.Size(100, 21);
+            this.comboBox_division.TabIndex = 10;
             // 
-            // comboBox2
+            // comboBox_handicap
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBox_handicap.FormattingEnabled = true;
+            this.comboBox_handicap.Items.AddRange(new object[] {
             "N",
             "Y"});
-            this.comboBox2.Location = new System.Drawing.Point(114, 200);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(48, 21);
-            this.comboBox2.TabIndex = 63;
+            this.comboBox_handicap.Location = new System.Drawing.Point(114, 200);
+            this.comboBox_handicap.Name = "comboBox_handicap";
+            this.comboBox_handicap.Size = new System.Drawing.Size(48, 21);
+            this.comboBox_handicap.TabIndex = 6;
+            this.comboBox_handicap.SelectedIndexChanged += new System.EventHandler(this.comboBox_handicap_SelectedIndexChanged);
             // 
-            // textBox19
+            // tb_mother_tongue
             // 
-            this.textBox19.Location = new System.Drawing.Point(114, 51);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(121, 20);
-            this.textBox19.TabIndex = 62;
+            this.tb_mother_tongue.Location = new System.Drawing.Point(114, 51);
+            this.tb_mother_tongue.Name = "tb_mother_tongue";
+            this.tb_mother_tongue.Size = new System.Drawing.Size(121, 20);
+            this.tb_mother_tongue.TabIndex = 1;
             // 
-            // textBox18
+            // tb_handicap_description
             // 
-            this.textBox18.Location = new System.Drawing.Point(180, 200);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(206, 20);
-            this.textBox18.TabIndex = 61;
+            this.tb_handicap_description.Location = new System.Drawing.Point(180, 200);
+            this.tb_handicap_description.Name = "tb_handicap_description";
+            this.tb_handicap_description.Size = new System.Drawing.Size(206, 20);
+            this.tb_handicap_description.TabIndex = 7;
             // 
-            // textBox17
+            // tb_category
             // 
-            this.textBox17.Location = new System.Drawing.Point(114, 162);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(121, 20);
-            this.textBox17.TabIndex = 60;
+            this.tb_category.Location = new System.Drawing.Point(114, 162);
+            this.tb_category.Name = "tb_category";
+            this.tb_category.Size = new System.Drawing.Size(121, 20);
+            this.tb_category.TabIndex = 5;
             // 
-            // textBox16
+            // tb_caste
             // 
-            this.textBox16.Location = new System.Drawing.Point(286, 127);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 20);
-            this.textBox16.TabIndex = 59;
+            this.tb_caste.Location = new System.Drawing.Point(286, 127);
+            this.tb_caste.Name = "tb_caste";
+            this.tb_caste.Size = new System.Drawing.Size(100, 20);
+            this.tb_caste.TabIndex = 4;
             // 
-            // textBox15
+            // tb_religion
             // 
-            this.textBox15.Location = new System.Drawing.Point(114, 127);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(121, 20);
-            this.textBox15.TabIndex = 58;
+            this.tb_religion.Location = new System.Drawing.Point(114, 127);
+            this.tb_religion.Name = "tb_religion";
+            this.tb_religion.Size = new System.Drawing.Size(121, 20);
+            this.tb_religion.TabIndex = 3;
+            this.tb_religion.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
             // 
-            // textBox14
+            // tb_nationality
             // 
-            this.textBox14.Location = new System.Drawing.Point(114, 84);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(121, 20);
-            this.textBox14.TabIndex = 57;
+            this.tb_nationality.Location = new System.Drawing.Point(114, 84);
+            this.tb_nationality.Name = "tb_nationality";
+            this.tb_nationality.Size = new System.Drawing.Size(121, 20);
+            this.tb_nationality.TabIndex = 2;
             // 
-            // comboBox1
+            // comboBox_blood
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBox_blood.FormattingEnabled = true;
+            this.comboBox_blood.Items.AddRange(new object[] {
             "NA",
             "+A",
             "-A",
@@ -607,40 +674,40 @@
             "-B",
             "AB",
             "O"});
-            this.comboBox1.Location = new System.Drawing.Point(114, 11);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 56;
+            this.comboBox_blood.Location = new System.Drawing.Point(114, 11);
+            this.comboBox_blood.Name = "comboBox_blood";
+            this.comboBox_blood.Size = new System.Drawing.Size(121, 21);
+            this.comboBox_blood.TabIndex = 0;
             // 
-            // checkBox4
+            // checkBox_new_admission
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(17, 360);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(98, 17);
-            this.checkBox4.TabIndex = 55;
-            this.checkBox4.Text = "New Admission";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox_new_admission.AutoSize = true;
+            this.checkBox_new_admission.Location = new System.Drawing.Point(17, 360);
+            this.checkBox_new_admission.Name = "checkBox_new_admission";
+            this.checkBox_new_admission.Size = new System.Drawing.Size(98, 17);
+            this.checkBox_new_admission.TabIndex = 13;
+            this.checkBox_new_admission.Text = "New Admission";
+            this.checkBox_new_admission.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBox_hosteler
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(159, 360);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(65, 17);
-            this.checkBox3.TabIndex = 54;
-            this.checkBox3.Text = "Hosteler";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox_hosteler.AutoSize = true;
+            this.checkBox_hosteler.Location = new System.Drawing.Point(159, 360);
+            this.checkBox_hosteler.Name = "checkBox_hosteler";
+            this.checkBox_hosteler.Size = new System.Drawing.Size(65, 17);
+            this.checkBox_hosteler.TabIndex = 14;
+            this.checkBox_hosteler.Text = "Hosteler";
+            this.checkBox_hosteler.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBox_minority_student
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(278, 360);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(102, 17);
-            this.checkBox2.TabIndex = 53;
-            this.checkBox2.Text = "Minority Student";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox_minority_student.AutoSize = true;
+            this.checkBox_minority_student.Location = new System.Drawing.Point(278, 360);
+            this.checkBox_minority_student.Name = "checkBox_minority_student";
+            this.checkBox_minority_student.Size = new System.Drawing.Size(102, 17);
+            this.checkBox_minority_student.TabIndex = 15;
+            this.checkBox_minority_student.Text = "Minority Student";
+            this.checkBox_minority_student.UseVisualStyleBackColor = true;
             // 
             // label30
             // 
@@ -686,17 +753,6 @@
             this.label26.Size = new System.Drawing.Size(50, 13);
             this.label26.TabIndex = 48;
             this.label26.Text = "Form No.";
-            // 
-            // splitter2
-            // 
-            this.splitter2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.splitter2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter2.Location = new System.Drawing.Point(0, 240);
-            this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(405, 146);
-            this.splitter2.TabIndex = 47;
-            this.splitter2.TabStop = false;
-            this.splitter2.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitter2_SplitterMoved);
             // 
             // label25
             // 
@@ -761,16 +817,6 @@
             this.label19.TabIndex = 40;
             this.label19.Text = "Blood Group";
             // 
-            // splitter1
-            // 
-            this.splitter1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.splitter1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.splitter1.Location = new System.Drawing.Point(970, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(150, 469);
-            this.splitter1.TabIndex = 3;
-            this.splitter1.TabStop = false;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -799,6 +845,106 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Register No.";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // errorProvider2
+            // 
+            this.errorProvider2.ContainerControl = this;
+            // 
+            // errorProvider3
+            // 
+            this.errorProvider3.ContainerControl = this;
+            // 
+            // errorProvider4
+            // 
+            this.errorProvider4.ContainerControl = this;
+            // 
+            // errorProvider5
+            // 
+            this.errorProvider5.ContainerControl = this;
+            // 
+            // errorProvider6
+            // 
+            this.errorProvider6.ContainerControl = this;
+            // 
+            // errorProvider7
+            // 
+            this.errorProvider7.ContainerControl = this;
+            // 
+            // errorProvider8
+            // 
+            this.errorProvider8.ContainerControl = this;
+            // 
+            // errorProvider9
+            // 
+            this.errorProvider9.ContainerControl = this;
+            // 
+            // errorProvider10
+            // 
+            this.errorProvider10.ContainerControl = this;
+            // 
+            // errorProvider11
+            // 
+            this.errorProvider11.ContainerControl = this;
+            // 
+            // errorProvider12
+            // 
+            this.errorProvider12.ContainerControl = this;
+            // 
+            // errorProvider13
+            // 
+            this.errorProvider13.ContainerControl = this;
+            // 
+            // errorProvider14
+            // 
+            this.errorProvider14.ContainerControl = this;
+            // 
+            // errorProvider15
+            // 
+            this.errorProvider15.ContainerControl = this;
+            // 
+            // errorProvider16
+            // 
+            this.errorProvider16.ContainerControl = this;
+            // 
+            // errorProvider17
+            // 
+            this.errorProvider17.ContainerControl = this;
+            // 
+            // errorProvider18
+            // 
+            this.errorProvider18.ContainerControl = this;
+            // 
+            // errorProvider19
+            // 
+            this.errorProvider19.ContainerControl = this;
+            // 
+            // errorProvider20
+            // 
+            this.errorProvider20.ContainerControl = this;
+            // 
+            // errorProvider21
+            // 
+            this.errorProvider21.ContainerControl = this;
+            // 
+            // errorProvider22
+            // 
+            this.errorProvider22.ContainerControl = this;
+            // 
+            // errorProvider23
+            // 
+            this.errorProvider23.ContainerControl = this;
+            // 
+            // errorProvider24
+            // 
+            this.errorProvider24.ContainerControl = this;
+            // 
+            // errorProvider25
+            // 
+            this.errorProvider25.ContainerControl = this;
+            // 
             // student_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -806,12 +952,37 @@
             this.ClientSize = new System.Drawing.Size(1184, 511);
             this.Controls.Add(this.panel1);
             this.Name = "student_add";
-            this.Text = "Student Create Record";
+            this.Text = "Add student";
             this.Load += new System.EventHandler(this.student_create_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider25)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -822,44 +993,42 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.RadioButton rb_female;
+        private System.Windows.Forms.RadioButton rb_others;
+        private System.Windows.Forms.RadioButton rb_male;
+        private System.Windows.Forms.TextBox tb_mothername;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_lastname;
+        private System.Windows.Forms.TextBox tb_middlename;
+        private System.Windows.Forms.TextBox tb_firstname;
+        private System.Windows.Forms.TextBox tb_university_id;
+        private System.Windows.Forms.TextBox tb_enrollment_no;
+        private System.Windows.Forms.TextBox tb_register_no;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker date_dob;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox_same_address;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox tb_local_address;
+        private System.Windows.Forms.TextBox tb_permanent_address;
+        private System.Windows.Forms.TextBox tb_placeofbirth;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.DateTimePicker date_doa;
+        private System.Windows.Forms.MaskedTextBox tbm_education_yr;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Splitter splitter2;
+        private System.Windows.Forms.TextBox tb_email;
+        private System.Windows.Forms.TextBox tb_phone;
+        private System.Windows.Forms.TextBox tb_mobile;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label23;
@@ -867,27 +1036,53 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox_new_admission;
+        private System.Windows.Forms.CheckBox checkBox_hosteler;
+        private System.Windows.Forms.CheckBox checkBox_minority_student;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.ComboBox comboBox_blood;
+        private System.Windows.Forms.TextBox tb_form_no;
+        private System.Windows.Forms.TextBox tb_adhar;
+        private System.Windows.Forms.ComboBox comboBox_specialization;
+        private System.Windows.Forms.ComboBox comboBox_admit_class;
+        private System.Windows.Forms.ComboBox comboBox_division;
+        private System.Windows.Forms.ComboBox comboBox_handicap;
+        private System.Windows.Forms.TextBox tb_mother_tongue;
+        private System.Windows.Forms.TextBox tb_handicap_description;
+        private System.Windows.Forms.TextBox tb_category;
+        private System.Windows.Forms.TextBox tb_caste;
+        private System.Windows.Forms.TextBox tb_religion;
+        private System.Windows.Forms.TextBox tb_nationality;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.ErrorProvider errorProvider2;
+        private System.Windows.Forms.ErrorProvider errorProvider3;
+        private System.Windows.Forms.ErrorProvider errorProvider4;
+        private System.Windows.Forms.ErrorProvider errorProvider5;
+        private System.Windows.Forms.ErrorProvider errorProvider6;
+        private System.Windows.Forms.ErrorProvider errorProvider7;
+        private System.Windows.Forms.ErrorProvider errorProvider8;
+        private System.Windows.Forms.ErrorProvider errorProvider9;
+        private System.Windows.Forms.ErrorProvider errorProvider10;
+        private System.Windows.Forms.ErrorProvider errorProvider11;
+        private System.Windows.Forms.ErrorProvider errorProvider12;
+        private System.Windows.Forms.ErrorProvider errorProvider13;
+        private System.Windows.Forms.ErrorProvider errorProvider14;
+        private System.Windows.Forms.ErrorProvider errorProvider15;
+        private System.Windows.Forms.ErrorProvider errorProvider16;
+        private System.Windows.Forms.ErrorProvider errorProvider17;
+        private System.Windows.Forms.ErrorProvider errorProvider18;
+        private System.Windows.Forms.ErrorProvider errorProvider19;
+        private System.Windows.Forms.ErrorProvider errorProvider20;
+        private System.Windows.Forms.ErrorProvider errorProvider21;
+        private System.Windows.Forms.ErrorProvider errorProvider22;
+        private System.Windows.Forms.ErrorProvider errorProvider23;
+        private System.Windows.Forms.ErrorProvider errorProvider24;
+        private System.Windows.Forms.ErrorProvider errorProvider25;
 
 
 

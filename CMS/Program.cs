@@ -16,7 +16,11 @@ namespace CMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new student_add());
+            Application.Run(new promote_student());
+            //Application.Run(new student_add());
+            //Application.Run(new student_search());
+            //Application.Run(new fees());
+           //Application.Run(new fee_structure());
         }
     }
 }
